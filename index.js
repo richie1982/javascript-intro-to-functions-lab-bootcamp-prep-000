@@ -1,17 +1,12 @@
 var uppercase, lowercase 
 
-function shout(string) {
-  
-  return string.toUpperCase()
-  
+function shout(string){
+  uppercase = string.toUpperCase();
+  string = uppercase;
+  return uppercase;
 }
 
-function whisper(string) {
-  
-  return string.toLowerCase(
-    )
-}
-
-function logShout(string) {
-  
-}
+function whisper(string){
+  lowercase = string.toLowerCase();
+  string = lowercase;
+  return lowercase;
