@@ -15,3 +15,8 @@ function whisper(string) {
   return lowercase;
   
 }
+
+function logShout(string) {
+  
+  
+}
